@@ -47,7 +47,7 @@ export const Component = (props) => {
                 </div>
                 <div className="mb-3">
                     <input
-                        type="password"
+                        type="text"
                         className="form-control"
                         name="password"
                         placeholder="Ingrese su contraseña"
@@ -57,7 +57,7 @@ export const Component = (props) => {
                 </div>
                 <div className="mb-5">
                     <input
-                        type="password"
+                        type="text"
                         className="form-control"
                         name="repetir"
                         placeholder="Ingrese nuevamente su contraseña"

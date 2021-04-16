@@ -26,12 +26,7 @@ export const Opciones = () => {
     return (
         <div className="form-group m-5">
             <div className="mb-3">
-                <input
-                    type="text"
-                    className="form-control"
-                    name="usuario"
-                    value={values.usuario}
-                />
+                <button className="btn btn-outline-primary btn-block">{values.usuario}</button>
             </div>
             <div className="mb-3">
                 <input
