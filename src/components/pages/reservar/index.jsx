@@ -21,7 +21,7 @@ export const Reservar = () => {
         <div className="form-group m-1">
             <button className="btn btn-info btn-block mb-2">{`Elija horario para reservar la sala ${sala}`}</button>
             {
-                horarios.map(h => reservas.includes(h)? <Ocupado hora={h} /> : <Disponible hora={h} />)
+                horarios.map(h => reservas.includes(h)? <Ocupado key={h} hora={h} /> : <Disponible  key={h} hora={h} />)
             }
             <button className="btn btn-danger mt-3 mr-3" onClick={logOut}>Log Out</button>
             <button className="btn btn-warning mt-3" onClick={()=>setSelector('Opciones')}>Volver</button>
